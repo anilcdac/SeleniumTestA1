@@ -17,9 +17,9 @@ public class readExcel {
 //Creating a workbook
         XSSFWorkbook workbook = new XSSFWorkbook(fs);
         XSSFSheet sheet = workbook.getSheetAt(0);
-        Row row = sheet.getRow(0);
-        Cell cell = row.getCell(0);
-        System.out.println(sheet.getRow(0).getCell(0));
+            Row row = sheet.getRow(0);
+            Cell cell = row.getCell(0);
+            System.out.println(sheet.getRow(0).getCell(0));
         Row row1 = sheet.getRow(1);
         Cell cell1 = row1.getCell(1);
         System.out.println(sheet.getRow(0).getCell(1));
