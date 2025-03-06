@@ -23,8 +23,8 @@ public class readExcelCellRef {
         // Using CellReference to get cell A1
         CellReference cellRef = new CellReference("A1");
         Row row = sheet.getRow(cellRef.getRow());
-        Cell cell = row.getCell(cellRef.getCol());
-        System.out.println(cell);
+        Cell cellA1 = row.getCell(cellRef.getCol());
+        System.out.println(cellA1);
 
         // Using CellReference to get cell B2
         CellReference cellRefB2 = new CellReference("B2");
